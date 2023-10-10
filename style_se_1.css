@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #231C1A;
+    height:80px;
+    width: 100%;
+} 
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    position: absolute;
+    right: 4vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header ul a:hover{
+    text-decoration: underline;
+}
+/*header****************************************/
+
+footer{
+    background-color: black;
+    color: #b7b7b7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}

@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #231C1A;
+    height:80px;
+    width: 100%;
+} 
+h1{
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    position: absolute;
+    right: 4vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header ul a:hover{
+    text-decoration: underline;
+}
+.time{
+    background-color: rgb(161, 119, 64);
+    color: white;
+    height: 85vh; 
+    background-image: url("images/face.JPG");
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.time h2{
+    font-size: 50px;
+}
+.time p{
+    color: #FEF7E6;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.record{
+    background-color: #231C1A;
+    color: white;
+    height: 40vh; 
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.record h2{
+    font-size: 40px;
+    margin: 15px 0px;
+}
+.record p{
+    font-size: 35px;
+    margin: 15px 0px;
+}
+.traveldiary{
+    background-color: #ede6db;
+    height: 10vh;
+    justify-content: center;
+}
+.traveldiary h2{
+    font-size: 18px;
+    padding: 40px 30px 30px 60px;
+}
+.traveldiary h2 a{
+    color: #231C1A;
+    border:1px solid #231C1A;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*travel1*/
+.travel1{
+    display: flex;
+    background-color: #ede6db;
+    align-items: center;
+}
+.travel1 div{
+    width: 50vh;
+}
+.travel1 img{
+    width: 80%;
+    height: 190px;
+    margin: 40px 0 30px 60px;
+    border-radius: 10px;
+}
+.travel1 h2{
+    font-size: 24px;
+    margin: 20px 20px;
+}
+.travel1 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.travel1 h2 a:hover{
+    text-decoration: underline;
+}
+.travel1 p{
+    color: #8b8181;
+    margin: 16px 16px;
+}
+/*travel2*/
+.travel2{
+    display: flex;
+    background-color: #ede6db;
+    align-items: center;
+}
+.travel2 div{
+    width: 50vh;
+}
+.travel2 img{
+    width: 80%;
+    height: 190px;
+    margin: 40px 0 30px 60px;
+    border-radius: 10px;
+}
+.travel2 h2{
+    font-size: 24px;
+    margin: 20px 20px;
+}
+.travel2 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.travel2 h2 a:hover{
+    text-decoration: underline;
+}
+.travel2 p{
+    color: #8b8181;
+    margin: 16px 16px;
+}
+.tour{
+    background-color: #ede6db;
+    height: 10vh;
+    justify-content: center;
+    padding: 20px 0 40px 0;
+}
+.tour h2{
+    font-size: 18px;
+    padding: 40px 30px 30px 60px;
+}
+.tour h2 a{
+    color: #231C1A;
+    border:1px solid #231C1A;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/*tour1*/
+.tour1{
+    display: flex;
+    background-color: #ede6db;
+}
+.tour1 img{
+    width: 60%;
+    height: 440px;
+    margin: 0px 0px 0px 200px;
+    border-radius: 10px;
+}
+.luying{
+    background-color: #e2dbcf;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tour1 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.tour1 h2 a:hover{
+    text-decoration: underline;
+}
+.tour1 p{
+    color: #8b8181;
+    margin: 16px 16px;
+}
+.pass {
+    background-color: #ede6db;
+    height:20px;
+    width: 100%;
+} 
+/*tour2*/
+.tour2{
+    display: flex;
+    background-color: #ede6db;
+}
+.tour2 img{
+    width: 60%;
+    height: 440px;
+    margin: 0px 200px 0px 0px;
+    border-radius: 10px;
+}
+.kanhua{
+    background-color: #e2dbcf;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tour2 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.tour2 h2 a:hover{
+    text-decoration: underline;
+}
+.tour2 p{
+    color: #8b8181;
+    margin: 16px 16px;
+}
+.pass {
+    background-color: #ede6db;
+    height:20px;
+    width: 100%;
+} 
+/*tour3*/
+.tour3{
+    display: flex;
+    background-color: #ede6db;
+}
+.tour3 img{
+    width: 60%;
+    height: 440px;
+    margin: 0px 0px 0px 200px;
+    border-radius: 10px;
+}
+.citywalk{
+    background-color: #e2dbcf;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tour3 h2 a{
+    color: black;
+    text-decoration: none;
+}
+.tour3 h2 a:hover{
+    text-decoration: underline;
+}
+.tour3 p{
+    color: #8b8181;
+    margin: 16px 16px;
+}
+.pass {
+    background-color: #ede6db;
+    height:20px;
+    width: 100%;
+} 
+.daily{
+    display: flex;
+    background-color: #ede6db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px 80px;
+}
+.daily div{
+    width: 300px;
+    text-align: center;
+}
+.daily img{
+    width: 100%;
+    border-radius: 10px;
+}
+.daily p{   
+    font-size: 20px;
+    margin: 20px 0 0 0;
+}
+.daily p a{   
+    color: #8b8181;
+    text-decoration: none;
+}
+.daily p a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: #b7b7b7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
